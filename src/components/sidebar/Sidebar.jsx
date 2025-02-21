@@ -46,7 +46,7 @@ const Sidebar = () => {
       className={`sidebar ${isSidebarOpen ? "sidebar-show" : ""}`}
       ref={navbarRef}
     >
-      <div className="sidebar-top">
+      {/* <div className="sidebar-top">
         <div className="sidebar-brand">
           <img
             src={theme === LIGHT_THEME ? logoDark : logo}
@@ -54,7 +54,7 @@ const Sidebar = () => {
             className={`${theme === DARK_THEME ? "w-8 sm:w-12 md:w-16 lg:w-32" : "w-6 sm:w-10 md:w-14 lg:w-24"}`}
           />
         </div>
-      </div>
+      </div> */}
       <div className="sidebar-body">
         <div className="sidebar-menu">
           <ul className="menu-list">
