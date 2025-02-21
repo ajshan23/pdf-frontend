@@ -51,7 +51,7 @@ const ProductAddPage = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('http://ec2-13-203-184-112.ap-south-1.compute.amazonaws.com:3005/generate-pdf', formData);
+            const response = await axios.post('http://13.203.184.112:3005/generate-pdf', formData);
 
 
             if (response.data && response.data.pdfUrl) {
